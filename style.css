@@ -33,10 +33,14 @@ body {
     font-size: 20px;
     text-align: center;
 }
-/* .generate-btn:focus{
+.generate-btn:focus{
     outline: none;
     box-shadow: none;
-} */
+    border-radius: 50px;
+    background: #425062;
+    box-shadow:  17px 17px 33px #384453, 
+             -17px -17px 33px #4c5c71;
+}
 
 input[type='text']{
     background-color: #3D4153;
